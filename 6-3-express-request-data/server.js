@@ -107,20 +107,13 @@ LAB SETUP INSTRUCTIONS
 import express from "express";
 const app = express();
 
-
+app.listen(3000, () => console.log("API running at http://localhost:3000"));
 // create server
-
 
 // Query params: /echo?name=Ali&age=22
 
-
 // Route params: /profile/First/Last
-
 
 // Route param middleware example: /users/42
 
-
 // Route params: /users/:userId route
-
-
-
