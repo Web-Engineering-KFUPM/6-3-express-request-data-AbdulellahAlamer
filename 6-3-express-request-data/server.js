@@ -140,7 +140,7 @@ app.param("userId", (req, res, next, userId) => {
 
   req.userIdNum = userIdNum;
 
-  //   next();
+  next();
 });
 
 // Route params: /users/:userId route
